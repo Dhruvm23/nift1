@@ -114,8 +114,136 @@ p{
     width:20px;
     bottom:40px ;
     left:760px;
-}
-*/
+}*/
+@media only screen and (max-width: 1024px){
+    
+    
+    top{
+    position: relative;
+    }
+
+    .khadi{
+        height:70px;
+        width: 100px;
+        position:absolute;
+        left:360px;
+    }
+
+    .coek{
+        
+        height:70px;
+        width: 100px;
+        position:absolute;
+        right:380px;
+    }
+
+    .main{
+        height:70px;
+        width: 500px;
+        position:absolute;
+        left:450px;
+    }
+
+    .hm{
+        position: absolute;
+        left:530px;
+        top:115px;
+        color:brown;
+    }
+
+    body{
+        font-family: Arial, sans-serif;
+    }
+
+    .input-container {
+        margin-bottom: 16px;
+        position:relative;
+     }
+
+    label {
+        display: block;
+        margin-bottom: 4px;
+    } 
+
+    select {
+        width: 200px;
+        height:35px;
+        padding: 8px;
+    }
+
+    #generateButton {
+        position: relative;
+        display: block;
+        margin: 16px auto;
+        top:300px;
+    }
+
+    #garmentSelect{
+        position: absolute;
+        top:220px;
+        left:300px;
+    }
+
+    #fabricSelect{
+        position: absolute;
+        top:220px;
+        right:300px;
+    }
+
+    #sizeChartImage{
+        height:250px;
+        width:450px;
+        position:relative;
+        left:150px;
+        top:240px;
+    }
+
+    #sizeChartImageH{
+        height:250px;
+        width:450px;
+        position:relative;
+        left:400px;
+        top:240px;
+    }
+
+    #garmentImage{
+        height:250px;
+        width:250px;
+        position: relative;
+        right:315px;
+        top:495px;
+    }
+
+    p{
+        position: absolute;
+        bottom: 0;
+        left:600px;
+    }
+
+    .insta{
+        position: absolute;
+        height:20px;
+        width:20px;
+        bottom:40px;
+        left:680px;
+    }
+
+    .link{
+        position: absolute;
+        height:20px;
+        width:20px;
+        bottom: 40px;
+        left:720px;
+    }
+
+    .twit{
+        position: absolute;
+        height:20px;
+        width:20px;
+        bottom:40px ;
+        left:760px;
+    }
+ }
 /*top{
     position: relative;
 }
@@ -242,33 +370,3 @@ p{
 }*/
 
 /* Media queries for laptop screens */
-@media only screen and (max-width: 1024px) {
-    .khadi, .coek, .main {
-        position: relative;
-        left: auto;
-        right: auto;
-        width: 100%;
-        margin-bottom: 16px;
-    }
-
-    #garmentSelect, #fabricSelect {
-        position: relative;
-        left: auto;
-        right: auto;
-        top: auto;
-    }
-
-    #generateButton, #sizeChartImage, #sizeChartImageH, #garmentImage {
-        position: relative;
-        left: auto;
-        right: auto;
-        top: auto;
-    }
-
-    p, .insta, .link, .twit {
-        position: relative;
-        bottom: auto;
-        left: auto;
-        right: auto;
-    }
-}
