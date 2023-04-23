@@ -1,4 +1,4 @@
-/*top{
+top{
     position: relative;
 }
 .khadi{
@@ -114,8 +114,8 @@ p{
     width:20px;
     bottom:40px ;
     left:760px;
-}*/
-@media only screen and (max-width: 1024px){
+}
+/*@media only screen and (max-width: 1024px){
     
     
     top{
