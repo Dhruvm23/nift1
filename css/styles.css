@@ -116,45 +116,45 @@ p{
     left:760px;
 }
 */
-.top {
+*top{
     position: relative;
 }
 
-.khadi {
-    height: 70px;
+.khadi{
+    height:70px;
     width: 100px;
-    position: absolute;
-    left: 360px;
+    position:absolute;
+    left:360px;
 }
 
-.coek {
-    height: 70px;
+.coek{
+    height:70px;
     width: 100px;
-    position: absolute;
-    right: 380px;
+    position:absolute;
+    right:380px;
 }
 
-.main {
-    height: 70px;
+.main{
+    height:70px;
     width: 500px;
-    position: absolute;
-    left: 450px;
+    position:absolute;
+    left:450px;
 }
 
-.hm {
+.hm{
     position: absolute;
-    left: 530px;
-    top: 115px;
-    color: brown;
+    left:530px;
+    top:115px;
+    color:brown;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
 }
 
 .input-container {
     margin-bottom: 16px;
-    position: relative;
+    position:relative;
 }
 
 label {
@@ -164,7 +164,7 @@ label {
 
 select {
     width: 200px;
-    height: 35px;
+    height:35px;
     padding: 8px;
 }
 
@@ -172,88 +172,103 @@ select {
     position: relative;
     display: block;
     margin: 16px auto;
-    top: 300px;
+    top:300px;
 }
 
-#garmentSelect {
+#garmentSelect{
     position: absolute;
-    top: 220px;
-    left: 300px;
+    top:220px;
+    left:300px;
 }
 
-#fabricSelect {
+#fabricSelect{
     position: absolute;
-    top: 220px;
-    right: 300px;
+    top:220px;
+    right:300px;
 }
 
-#sizeChartImage {
-    height: 250px;
-    width: 450px;
+#sizeChartImage{
+    height:250px;
+    width:450px;
+    position:relative;
+    left:150px;
+    top:240px;
+}
+
+#sizeChartImageH{
+    height:250px;
+    width:450px;
+    position:relative;
+    left:400px;
+    top:240px;
+}
+
+#garmentImage{
+    height:250px;
+    width:250px;
     position: relative;
-    left: 150px;
-    top: 240px;
+    right:315px;
+    top:495px;
 }
 
-#sizeChartImageH {
-    height: 250px;
-    width: 450px;
-    position: relative;
-    left: 400px;
-    top: 240px;
-}
-
-#garmentImage {
-    height: 250px;
-    width: 250px;
-    position: relative;
-    right: 315px;
-    top: 495px;
-}
-
-p {
+p{
     position: absolute;
     bottom: 0;
-    left: 600px;
+    left:600px;
 }
 
-.insta {
+.insta{
     position: absolute;
-    height: 20px;
-    width: 20px;
-    bottom: 40px;
-    left: 680px;
+    height:20px;
+    width:20px;
+    bottom:40px;
+    left:680px;
 }
 
-.link {
+.link{
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height:20px;
+    width:20px;
     bottom: 40px;
-    left: 720px;
+    left:720px;
 }
 
-.twit {
+.twit{
     position: absolute;
-    height: 20px;
-    width: 20px;
-    bottom: 40px;
-    left: 760px;
+    height:20px;
+    width:20px;
+    bottom:40px ;
+    left:760px;
 }
 
-/* Add vendor prefixes for certain properties */
+/* Media queries for laptop screens */
+@media only screen and (max-width: 1366px) {
+    .khadi, .coek, .main {
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 100%;
+        margin-bottom: 16px;
+    }
 
-/* Example: Adding vendor prefix for 'transform' property */
-.khadi,
-.coek,
-.main {
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+    #garmentSelect, #fabricSelect {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+    }
+
+    #generateButton, #sizeChartImage, #sizeChartImageH, #garmentImage {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+    }
+
+    p, .insta, .link, .twit {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        right: auto;
+    }
 }
-  
-
-
-
