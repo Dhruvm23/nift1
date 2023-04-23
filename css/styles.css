@@ -115,7 +115,7 @@ p{
     bottom:40px ;
     left:760px;
 }*/
-/*@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
     
     
     top{
@@ -243,8 +243,8 @@ p{
         bottom:40px ;
         left:760px;
     }
- }*/
-top{
+ }
+/*top{
     position: relative;
 }
 
@@ -369,4 +369,4 @@ p{
     left:760px;
 }
 
-
+*/
