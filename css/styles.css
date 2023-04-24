@@ -21,9 +21,16 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white; /* Set the background color to match the body or desired color */
+  z-index: 100; /* Set a higher z-index value to keep it above the other elements */
   -webkit-display: flex;
   -webkit-justify-content: center;
   -webkit-align-items: center;
+  -webkit-position: fixed;
 }
 
 .khadi, .coek, .main {
