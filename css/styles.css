@@ -1,33 +1,38 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
+body, html {
+  height: 100%;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-header {
+.container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 20px;
-  background-color: #f5f5f5;
+  justify-content: center;
+  min-height: 100%;
 }
 
-.logo img {
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.khadi, .coek, .main {
   height: 70px;
+}
+
+.khadi, .coek {
   width: 100px;
-  display: inline-block;
+}
+
+.main {
+  width: 500px;
 }
 
 .hm {
-  margin: 0;
   color: brown;
-  font-size: 1.5rem;
-}
-
-main {
-  padding: 20px;
+  margin-top: 16px;
 }
 
 .input-container {
@@ -40,156 +45,87 @@ label {
 }
 
 select {
-  width: 100%;
+  width: 200px;
   height: 35px;
   padding: 8px;
-  font-size: 1rem;
 }
 
 #generateButton {
   display: block;
-  margin: 0 auto;
-  margin-top: 16px;
+  margin: 16px auto;
 }
 
-.lcon {
+#garmentSelect, #fabricSelect {
+  display: inline-block;
+  vertical-align: top;
+  margin: 16px;
+}
+
+#sizeChartImage, #sizeChartImageH, #garmentImage {
+  height: 250px;
+  width: 450px;
+  margin: 16px;
+}
+
+#garmentImage {
+  width: 250px;
+}
+
+.social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.lcon a {
-  margin-right: 16px;
+.insta, .link, .twit {
+  height: 20px;
+  width: 20px;
+  margin: 0 8px;
 }
 
-.wr {
-  margin: 0;
-  margin-left: 16px;
-}
-
-@media screen and (min-width: 576px) {
-  .logo img {
-    height: 70px;
-    width: 100px;
-    display: inline-block;
+@media screen and (max-width: 768px) {
+  .khadi, .coek, .main {
+    height: 50px;
   }
 
-  .hm {
-    font-size: 2rem;
+  .khadi, .coek {
+    width: 70px;
   }
 
-  .input-container {
-    display: inline-block;
-    margin-right: 16px;
-    margin-bottom: 0;
-  }
-
-  select {
-    width: 200px;
-  }
-
-  #generateButton {
-    display: inline-block;
-    margin: 0;
-    margin-left: 16px;
-    margin-top: 0;
-  }
-
-  .lcon {
-    margin-top: 0;
-  }
-
-  .lcon a {
-    margin-right: 24px;
-  }
-
-  .wr {
-    margin-left: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .logo img {
-    height: 80px;
-    width: 120px;
-    display: inline-block;
-  }
-
-  .hm {
-    font-size: 2.5rem;
-  }
-
-  .input-container {
-    margin-right: 32px;
-  }
-
-  select {
-    width: 250px;
-  }
-
-  #generateButton {
-    margin-left: 0;
-  }
-
-  .lcon a {
-    margin-right: 32px;
-  }
-
-  .wr {
-    margin-right: 0;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .logo img {
-    height: 90px;
-    width: 150px;
-    display: inline-block;
-  }
-
-  .hm {
-    font-size: 3rem;
-  }
-
-  .input-container {
-    margin-right: 48px;
-  }
-
-  select {
+  .main {
     width: 300px;
   }
 
-  .lcon a {
-    margin-right: 48px;
+  #sizeChartImage, #sizeChartImageH, #garmentImage {
+    height: 200px;
+    width: 300px;
+  }
+
+  #garmentImage {
+    width: 150px;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .logo img {
-    height: 100px;
-    width: 180px;
-    display: inline-block;
+@media screen and (max-width: 480px) {
+  .khadi, .coek, .main {
+    height: 30px;
   }
 
-  .hm {
-    font-size: 4rem;
+  .khadi, .coek {
+    width: 50px;
   }
 
-  .input-container {
-    margin-right: 64px;
+  .main {
+    width: 200px;
   }
 
-  select {
-    width: 350px;
+  #sizeChartImage, #sizeChartImageH, #garmentImage {
+    height: 150px;
+    width: 225px;
   }
 
-  .lcon a {
-    margin-right: 64
-    px;
+  #garmentImage {
+    width: 100px;
   }
-  }
-
-
-
+}
