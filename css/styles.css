@@ -1,372 +1,192 @@
-top{
-    position: relative;
-}
-.khadi{
-    height:70px;
-    width: 100px;
-    position:absolute;
-    left:360px;
-    
-    
-}
-.coek{
-    height:70px;
-    width: 100px;
-    position:absolute;
-    right:380px;
-    
-    
-}
-.main{
-    height:70px;
-    width: 500px;
-    position:absolute;
-    left:450px;
-}
-.hm{
-    position: absolute;
-    left:530px;
-    top:115px;
-    color:brown;
-}
-body{
-
-    font-family: Arial, sans-serif;
-}
-.input-container {
-    margin-bottom: 16px;
-    position:relative;
-}
-  
-label {
-    display: block;
-    margin-bottom: 4px;
-}
-  
-select {
-    width: 200px;
-    height:35px;
-    padding: 8px;
-}
-  
-#generateButton {
-    position: relative;
-    display: block;
-    margin: 16px auto;
-    top:300px;
-
-}
-#garmentSelect{
-    position: absolute;
-    top:220px;
-    left:300px;
-}
-#fabricSelect{
-    position: absolute;
-    top:220px;
-    right:300px;
-}
-#sizeChartImage{
-    height:250px;
-    width:450px;
-    position:relative;
-    left:150px;
-    top:240px;
-}
-#sizeChartImageH{
-    height:250px;
-    width:450px;
-    position:relative;
-    left:400px;
-    top:240px;
-}
-#garmentImage{
-    height:250px;
-    width:250px;
-    position: relative;
-    right:315px;
-    top:495px;
+* {
+  box-sizing: border-box;
 }
 
-
-p{
-    position: absolute;
-    bottom: 0;
-    left:600px;
-}
-.insta{
-    position: absolute;
-    height:20px;
-    width:20px;
-    bottom:40px;
-    left:680px;
-}
-.link{
-    position: absolute;
-    height:20px;
-    width:20px;
-    bottom: 40px;
-    left:720px;
-}
-.twit{
-    position: absolute;
-    height:20px;
-    width:20px;
-    bottom:40px ;
-    left:760px;
-}
-/*@media screen and (max-width: 1920px){
-    
-    
-    top{
-    position: relative;
-    }
-
-    .khadi{
-        height:70px;
-        width: 100px;
-        position:absolute;
-        left:360px;
-    }
-
-    .coek{
-        
-        height:70px;
-        width: 100px;
-        position:absolute;
-        right:380px;
-    }
-
-    .main{
-        height:70px;
-        width: 500px;
-        position:absolute;
-        left:450px;
-    }
-
-    .hm{
-        position: absolute;
-        left:530px;
-        top:115px;
-        color:brown;
-    }
-
-    body{
-        font-family: Arial, sans-serif;
-    }
-
-    .input-container {
-        margin-bottom: 16px;
-        position:relative;
-     }
-
-    label {
-        display: block;
-        margin-bottom: 4px;
-    } 
-
-    select {
-        width: 200px;
-        height:35px;
-        padding: 8px;
-    }
-
-    #generateButton {
-        position: relative;
-        display: block;
-        margin: 16px auto;
-        top:300px;
-    }
-
-    #garmentSelect{
-        position: absolute;
-        top:220px;
-        left:300px;
-    }
-
-    #fabricSelect{
-        position: absolute;
-        top:220px;
-        right:300px;
-    }
-
-    #sizeChartImage{
-        height:250px;
-        width:450px;
-        position:relative;
-        left:150px;
-        top:240px;
-    }
-
-    #sizeChartImageH{
-        height:250px;
-        width:450px;
-        position:relative;
-        left:400px;
-        top:240px;
-    }
-
-    #garmentImage{
-        height:250px;
-        width:250px;
-        position: relative;
-        right:315px;
-        top:495px;
-    }
-
-    p{
-        position: absolute;
-        bottom: 0;
-        left:600px;
-    }
-
-    .insta{
-        position: absolute;
-        height:20px;
-        width:20px;
-        bottom:40px;
-        left:680px;
-    }
-
-    .link{
-        position: absolute;
-        height:20px;
-        width:20px;
-        bottom: 40px;
-        left:720px;
-    }
-
-    .twit{
-        position: absolute;
-        height:20px;
-        width:20px;
-        bottom:40px ;
-        left:760px;
-    }
- }*/
-/*top{
-    position: relative;
+body {
+  font-family: Arial, sans-serif;
 }
 
-.khadi{
-    height:70px;
-    width: 100px;
-    position:absolute;
-    left:360px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
 }
 
-.coek{
-    height:70px;
-    width: 100px;
-    position:absolute;
-    right:380px;
+.logo img {
+  height: 70px;
+  width: 100px;
+  display: inline-block;
 }
 
-.main{
-    height:70px;
-    width: 500px;
-    position:absolute;
-    left:450px;
+.hm {
+  margin: 0;
+  color: brown;
+  font-size: 1.5rem;
 }
 
-.hm{
-    position: absolute;
-    left:530px;
-    top:115px;
-    color:brown;
-}
-
-body{
-    font-family: Arial, sans-serif;
+main {
+  padding: 20px;
 }
 
 .input-container {
-    margin-bottom: 16px;
-    position:relative;
+  margin-bottom: 16px;
 }
 
 label {
-    display: block;
-    margin-bottom: 4px;
+  display: block;
+  margin-bottom: 4px;
 }
 
 select {
-    width: 200px;
-    height:35px;
-    padding: 8px;
+  width: 100%;
+  height: 35px;
+  padding: 8px;
+  font-size: 1rem;
 }
 
 #generateButton {
-    position: relative;
-    display: block;
-    margin: 16px auto;
-    top:300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
 }
 
-#garmentSelect{
-    position: absolute;
-    top:220px;
-    left:300px;
+.lcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
 }
 
-#fabricSelect{
-    position: absolute;
-    top:220px;
-    right:300px;
+.lcon a {
+  margin-right: 16px;
 }
 
-#sizeChartImage{
-    height:250px;
-    width:450px;
-    position:relative;
-    left:150px;
-    top:240px;
+.wr {
+  margin: 0;
+  margin-left: 16px;
 }
 
-#sizeChartImageH{
-    height:250px;
-    width:450px;
-    position:relative;
-    left:400px;
-    top:240px;
+@media screen and (min-width: 576px) {
+  .logo img {
+    height: 70px;
+    width: 100px;
+    display: inline-block;
+  }
+
+  .hm {
+    font-size: 2rem;
+  }
+
+  .input-container {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+
+  select {
+    width: 200px;
+  }
+
+  #generateButton {
+    display: inline-block;
+    margin: 0;
+    margin-left: 16px;
+    margin-top: 0;
+  }
+
+  .lcon {
+    margin-top: 0;
+  }
+
+  .lcon a {
+    margin-right: 24px;
+  }
+
+  .wr {
+    margin-left: auto;
+  }
 }
 
-#garmentImage{
-    height:250px;
-    width:250px;
-    position: relative;
-    right:315px;
-    top:495px;
+@media screen and (min-width: 768px) {
+  .logo img {
+    height: 80px;
+    width: 120px;
+    display: inline-block;
+  }
+
+  .hm {
+    font-size: 2.5rem;
+  }
+
+  .input-container {
+    margin-right: 32px;
+  }
+
+  select {
+    width: 250px;
+  }
+
+  #generateButton {
+    margin-left: 0;
+  }
+
+  .lcon a {
+    margin-right: 32px;
+  }
+
+  .wr {
+    margin-right: 0;
+  }
 }
 
-p{
-    position: absolute;
-    bottom: 0;
-    left:600px;
+@media screen and (min-width: 992px) {
+  .logo img {
+    height: 90px;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .hm {
+    font-size: 3rem;
+  }
+
+  .input-container {
+    margin-right: 48px;
+  }
+
+  select {
+    width: 300px;
+  }
+
+  .lcon a {
+    margin-right: 48px;
+  }
 }
 
-.insta{
-    position: absolute;
-    height:20px;
-    width:20px;
-    bottom:40px;
-    left:680px;
-}
+@media screen and (min-width: 1200px) {
+  .logo img {
+    height: 100px;
+    width: 180px;
+    display: inline-block;
+  }
 
-.link{
-    position: absolute;
-    height:20px;
-    width:20px;
-    bottom: 40px;
-    left:720px;
-}
+  .hm {
+    font-size: 4rem;
+  }
 
-.twit{
-    position: absolute;
-    height:20px;
-    width:20px;
-    bottom:40px ;
-    left:760px;
-}
+  .input-container {
+    margin-right: 64px;
+  }
 
-*/
+  select {
+    width: 350px;
+  }
+
+  .lcon a {
+    margin-right: 64
+    px;
+  }
+  }
