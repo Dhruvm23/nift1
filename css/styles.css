@@ -91,6 +91,14 @@ select {
 #garmentImage {
   width: 250px;
 }
+.image-container {
+  text-align: center;
+}
+
+#garmentImage {
+  max-width: 100%;
+  height: auto;
+}
 
 .social-icons {
   display: flex;
