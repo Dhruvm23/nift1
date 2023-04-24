@@ -53,7 +53,7 @@ body, html {
 
 .hm {
   color: brown;
-  margin-top: 16px;
+  margin-top: 60px;
 }
 
 .input-container {
@@ -89,7 +89,7 @@ select {
 }
 
 #garmentImage {
-  width: 250px;
+  width: 200px;
 }
 .image-container {
   text-align: center;
