@@ -10,12 +10,20 @@ body, html {
   align-items: center;
   justify-content: center;
   min-height: 100%;
+  -webkit-display: flex;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-min-height: 100%;
 }
 
 .top {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
 }
 
 .khadi, .coek, .main {
@@ -76,6 +84,9 @@ select {
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
 }
 
 .insta, .link, .twit {
