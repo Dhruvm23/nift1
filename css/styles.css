@@ -131,12 +131,11 @@ select {
 
   #sizeChartImage, #sizeChartImageH, #garmentImage {
     height: 200px;
-    width: 400px;
+    width: 300px;
   }
 
   #garmentImage {
-    width: 150px;
-    height: 100px;
+    width: 120px;
   }
 }
 
