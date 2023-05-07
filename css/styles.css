@@ -97,7 +97,8 @@ select {
 
 #garmentImage {
   max-width: 100%;
-  height: auto;
+  height: 280px;
+  width: 180px;
 }
 
 .social-icons {
