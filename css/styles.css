@@ -136,7 +136,8 @@ select {
   }
 
   #garmentImage {
-    width: 120px;
+    height: 280px;
+    width: 180px;
   }
 }
 
