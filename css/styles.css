@@ -126,15 +126,15 @@ select {
 
 @media screen and (max-width: 768px) {
   .khadi, .coek, .mainj {
-    height: 50px;
+    height: 60px;
   }
 
   .khadi, .coek {
-    width: 70px;
+    width: 110px;
   }
 
   .mainj {
-    width: 300px;
+    width: 400px;
   }
 
   #sizeChartImage, #sizeChartImageH {
