@@ -82,11 +82,17 @@ select {
   margin: 16px;
 }
 
-#sizeChartImage, #sizeChartImageH, #garmentImage {
+#sizeChartImage, #sizeChartImageH {
   height: 250px;
   width: 550px;
   margin: 16px;
   border:1px solid black;
+}
+#garmentImage {
+  height: 250px;
+  width: 550px;
+  margin: 16px;
+  
 }
 
 #garmentImage {
@@ -131,10 +137,15 @@ select {
     width: 300px;
   }
 
-  #sizeChartImage, #sizeChartImageH, #garmentImage {
+  #sizeChartImage, #sizeChartImageH {
     height: 200px;
     width: 400px;
     border:1px solid black;
+  }
+  #garmentImage {
+    height: 200px;
+    width: 400px;
+    
   }
 
   #garmentImage {
@@ -164,10 +175,15 @@ select {
     width: 200px;
   }
 
-  #sizeChartImage, #sizeChartImageH, #garmentImage {
+  #sizeChartImage, #sizeChartImageH {
     height: 150px;
     width: 225px;
     border:1px solid black;
+  }
+  #garmentImage {
+    height: 150px;
+    width: 225px;
+    
   }
 
   #garmentImage {
