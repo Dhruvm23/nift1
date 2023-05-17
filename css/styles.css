@@ -123,6 +123,10 @@ select {
   width: 20px;
   margin: 0 8px;
 }
+.sop{
+  position:relative;
+  top:30px;
+}
 
 @media screen and (max-width: 768px) {
   .khadi, .coek, .mainj {
@@ -153,7 +157,10 @@ select {
     width: 180px;
   }
 }
-
+.sop{
+  position:relative;
+  top:20px;
+}
 .footer{
   position: fixed; 
   width: 100%; 
