@@ -86,6 +86,7 @@ select {
   height: 250px;
   width: 550px;
   margin: 16px;
+  border:1px solid black;
 }
 
 #garmentImage {
@@ -133,6 +134,7 @@ select {
   #sizeChartImage, #sizeChartImageH, #garmentImage {
     height: 200px;
     width: 400px;
+    border:1px solid black;
   }
 
   #garmentImage {
@@ -165,6 +167,7 @@ select {
   #sizeChartImage, #sizeChartImageH, #garmentImage {
     height: 150px;
     width: 225px;
+    border:1px solid black;
   }
 
   #garmentImage {
