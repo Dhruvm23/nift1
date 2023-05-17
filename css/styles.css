@@ -84,7 +84,7 @@ select {
 
 #sizeChartImage, #sizeChartImageH {
   height: 250px;
-  width: 550px;
+  width: 650px;
   margin: 16px;
   border:2px solid black;
 }
