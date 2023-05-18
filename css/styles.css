@@ -16,6 +16,7 @@ body, html {
   -webkit-align-items: center;
   -webkit-justify-content: center;
   -webkit-min-height: 100%;
+  background-color: #fbf2db;
 }
 
 .top {
