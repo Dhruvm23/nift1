@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #fbf2db;
+  
 }
 
 .container {
@@ -16,7 +16,7 @@ body, html {
   -webkit-align-items: center;
   -webkit-justify-content: center;
   -webkit-min-height: 100%;
-  background-color: #fbf2db;
+  
 }
 
 .top {
@@ -33,7 +33,7 @@ body, html {
   -webkit-justify-content: center;
   -webkit-align-items: center;
   -webkit-position: fixed;
-  background-color: #fbf2db;
+  
 }
 
 .row {
@@ -44,17 +44,17 @@ body, html {
 
 .khadi, .coek, .mainj {
   height: 90px;
-  background-color: #fbf2db;
+  
 }
 
 .khadi, .coek {
   width: 150px;
-  background-color: #fbf2db;
+  
 }
 
 .mainj {
   width: 500px;
-  background-color: #fbf2db;
+  
 }
 
 .hm {
