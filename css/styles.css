@@ -136,11 +136,11 @@ select {
 
 @media screen and (max-width: 768px) {
   .khadi, .coek, .mainj {
-    height: 60px;
+    height: 50px;
   }
 
   .khadi, .coek {
-    width: 110px;
+    width: 100px;
   }
 
   .mainj {
