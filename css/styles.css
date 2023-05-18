@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #74992e;
+  background-color: #fbf2db;
 }
 
 .container {
@@ -32,6 +32,7 @@ body, html {
   -webkit-justify-content: center;
   -webkit-align-items: center;
   -webkit-position: fixed;
+  background-color: #fbf2db;
 }
 
 .row {
