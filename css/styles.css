@@ -44,14 +44,17 @@ body, html {
 
 .khadi, .coek, .mainj {
   height: 90px;
+  background-color: #fbf2db;
 }
 
 .khadi, .coek {
   width: 150px;
+  background-color: #fbf2db;
 }
 
 .mainj {
   width: 500px;
+  background-color: #fbf2db;
 }
 
 .hm {
