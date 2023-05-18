@@ -43,12 +43,12 @@ body, html {
 }
 
 .khadi, .coek, .mainj {
-  height: 90px;
+  height: 70px;
   
 }
 
 .khadi, .coek {
-  width: 150px;
+  width: 120px;
   
 }
 
@@ -136,11 +136,11 @@ select {
 
 @media screen and (max-width: 768px) {
   .khadi, .coek, .mainj {
-    height: 40px;
+    height: 60px;
   }
 
   .khadi, .coek {
-    width: 70px;
+    width: 110px;
   }
 
   .mainj {
